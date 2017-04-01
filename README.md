@@ -31,7 +31,7 @@ Whether to run `mas upgrade`, which will upgrade all installed Mac App Store app
 
 ## Dependencies
 
-  - [engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
+  - [Engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
 
 ## Example Playbook
 
@@ -40,7 +40,7 @@ Whether to run `mas upgrade`, which will upgrade all installed Mac App Store app
         mas_installed_app_ids:
           - 497799835 # Xcode (8.1)
       roles:
-        - { role: engboilers.mas, mas_execute: true }
+        - { role: Engboilers.mas, mas_execute: true }
 
 ## License
 
@@ -48,4 +48,4 @@ MIT / BSD
 
 ## Author Information
 
-[engboilers/ansible-role-homebrew](https://github.com/engboilers/ansible-role-homebrew), 2017 (originally inspired by [Jeff Geerling](https://www.jeffgeerling.com/), 2016).
+[Engboilers/ansible-role-homebrew](https://github.com/engboilers/ansible-role-homebrew), 2017 (originally inspired by [Jeff Geerling](https://www.jeffgeerling.com/), 2016).
