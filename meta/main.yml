@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: kadaan
+  author: engboilers
   description: Mac App Store CLI installation for macOS
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
@@ -15,4 +15,4 @@ galaxy_info:
     - system
     - packaging
 dependencies:
-  - kadaan.homebrew
+  - engboilers.homebrew

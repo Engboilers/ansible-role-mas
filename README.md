@@ -1,6 +1,6 @@
 # Ansible Role: Mac App Store CLI (mas)
 
-[![Build Status](https://travis-ci.org/kadaan/ansible-role-mas.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-mas)
+[![Build Status](https://travis-ci.org/engboilers/ansible-role-mas.svg?branch=master)](https://travis-ci.org/engboilers/ansible-role-mas)
 
 Installs [mas](https://github.com/mas-cli/mas) on macOS, and installs macOS apps from the Mac App Store.
 
@@ -31,7 +31,7 @@ Whether to run `mas upgrade`, which will upgrade all installed Mac App Store app
 
 ## Dependencies
 
-  - [kadaan.homebrew](https://galaxy.ansible.com/kadaan/homebrew/)
+  - [engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
 
 ## Example Playbook
 
@@ -40,7 +40,7 @@ Whether to run `mas upgrade`, which will upgrade all installed Mac App Store app
         mas_installed_app_ids:
           - 497799835 # Xcode (8.1)
       roles:
-        - { role: kadaan.mas, mas_execute: true }
+        - { role: engboilers.mas, mas_execute: true }
 
 ## License
 
@@ -48,4 +48,4 @@ MIT / BSD
 
 ## Author Information
 
-[kadaan/ansible-role-homebrew](https://github.com/kadaan/ansible-role-homebrew), 2017 (originally inspired by [Jeff Geerling](https://www.jeffgeerling.com/), 2016).
+[engboilers/ansible-role-homebrew](https://github.com/engboilers/ansible-role-homebrew), 2017 (originally inspired by [Jeff Geerling](https://www.jeffgeerling.com/), 2016).
